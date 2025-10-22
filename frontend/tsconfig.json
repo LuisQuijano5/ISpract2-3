@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+   
+    "target": "ES2020",
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true, 
+
+    
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true, 
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+
+    "allowJs": true, // ojo a esto hay q renombrar de jsx a tsx
+  },
+  
+  "include": ["src"],
+   
+}
